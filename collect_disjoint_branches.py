@@ -1,3 +1,5 @@
+import numpy as np
+
 def collect_disjoint_branches(diagram,all_sv=True,return_eval=False,sv_tol=.1,remove_isolated=True,isolated_number=2,remove_redundant=True,redundant_threshold=.01,N=20,fix_reverse=True):
     """
     collect all disjoint branches into disjoint arrays in a dict.
